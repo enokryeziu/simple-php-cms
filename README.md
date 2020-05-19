@@ -35,7 +35,7 @@ $password = "";
 $dbname = "muso";
 
 ```
-4. Login yourwebsite.com/admin/login.php
+4. Login localhost/admin/login.php
 
 ```
 email: admin@muro.com
