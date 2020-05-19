@@ -43,5 +43,5 @@ pass: admin
 
 ## Version
 ```
-Beta
+Beta 2018
 ```
