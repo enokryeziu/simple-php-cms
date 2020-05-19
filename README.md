@@ -33,7 +33,6 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "muso";
-
 ```
 4. Login localhost/admin/login.php
 
