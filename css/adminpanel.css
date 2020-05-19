@@ -1,0 +1,139 @@
+body#loginBody {
+	background: #34444b;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+#adDiv {
+	width: 200px;
+	margin: auto;
+	position: relative;
+	top: 250px;
+}
+#adDiv form input {
+	width: 200px;
+	padding: 10px;
+	margin: 10px 0px;
+}
+#adDiv form button {
+	width: 80px;
+}
+#adDiv #login {
+	padding: 5px;
+	margin: 10px 0px;
+}
+#adDiv span {
+	color: red;	
+}
+#adDiv form p{
+	color: #fff;
+	width: 230px;
+}
+#adDiv form a{
+	color: orange;
+}
+#adDiv form input[type=submit]{
+	width: 100px;
+}
+#topbar {
+	background: #38464F;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	min-width: 1000px;
+}
+#topbar img {
+	width: 100px;
+	padding: 10px;
+	margin: 0px 10px;
+}
+#topbar p {
+	float: right;
+	padding: 10px;
+	margin: 10px 10px;
+	color: #fff;
+}
+#topbar p a{
+	color: #fff;
+}
+#sidebar {
+	height: 100%;
+	float: left;
+	width: 200px;
+	background: #283339;
+	color: #fff;
+	position: absolute;
+	font-family:"Arial", "Sans-serif";
+   font-size: 14px;
+}
+#sidebar ul {
+	list-style: none;
+	padding: 0;
+}
+#sidebar ul li {
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+#sidebar ul .active {
+	background: #24A69A;
+}
+#sidebar ul li:hover {
+	background: #24A69A;
+}
+#sidebar ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0;
+	margin: 0px 20px;
+}
+#mainContent {
+	color: #000;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 210px;
+	margin-right: 10px;
+	text-align: center;
+	min-width: 960px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+table td img {
+	width: 100px;
+}
+.btnAdd {
+	background: #24A69A;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 10px;
+	float: left;
+}
+#editServices {
+	text-align: left;
+}
+#editServices input,#editServices textarea{
+	width: 300px;
+	padding: 10px;
+	margin: 10px 0px;
+}
+#editServices textarea {
+	min-height: 170px;
+	max-height: 170px;
+	min-width: 300px;
+	max-width: 300px;
+	font-family:"Arial", "Sans-serif";
+}
+#editServices input[type=submit]{
+	width: 100px;
+}
+.error {
+	color: red;
+}
